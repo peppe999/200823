@@ -22,7 +22,7 @@ public class MyMath {
         for(int j = 2; j <= Math.sqrt(i); j++)
             if(i % j == 0)
                 return false;
-
+        //Tanto per
         return true;
     }
 }
